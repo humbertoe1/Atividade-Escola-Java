@@ -1,12 +1,9 @@
 package com.company;
 
 public class Disciplina {
-    protected enum Disciplinas{
-        MATEMATICA,
-        GEOGRAFIA,
-        HISTORIA,
-        INGLES,
-        PORTUGUES,
-        CIENCIAS
+    public String nomeDaDisciplina;
+
+    public Disciplina(String nomeDaDisciplina){
+        this.nomeDaDisciplina = nomeDaDisciplina;
     }
 }

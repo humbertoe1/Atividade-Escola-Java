@@ -1,14 +1,15 @@
 package com.company;
 
 public class Turma {
-    enum letraDasTurmas{
-        A,
-        B,
-        C
+    private char letraDaTurma;
+
+
+    public Turma(char letraDaTurma){
+        this.letraDaTurma = letraDaTurma;
+
     }
-    enum serie{
-        PRIMEIRA,
-        SEGUNDA,
-        TERCEIRA
+
+    public char getLetraDaTurma() {
+        return letraDaTurma;
     }
 }
